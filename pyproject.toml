@@ -1,0 +1,21 @@
+[project]
+name = "axon-cli"
+version = "0.1.0"
+description = "A local CLI AI assistant powered by Ollama"
+dependencies = [
+    "ollama",
+    "rich",
+    "prompt_toolkit",
+    "pyfiglet",
+    "questionary"
+]
+
+[project.scripts]
+axon = "axon.main:main"
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
