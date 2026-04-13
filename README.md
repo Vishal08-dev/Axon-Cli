@@ -19,26 +19,21 @@
 
 ## Installation
 
-**1. Clone the repository**
+**Option 1 — Install via pip (recommended)**
 
-    git clone https://github.com/yourusername/axon-cli.git
-    cd axon-cli
+    pip install axon-cli
+    axon
 
-**2. Install dependencies**
+**Option 2 — Clone and install locally**
 
-    pip install -r requirements.txt
-
-**3. Install AXON as a command**
-
+    git clone https://github.com/Vishal08-dev/Axon-Cli.git
+    cd Axon-Cli
     pip install -e .
+    axon
 
-**4. Make sure Ollama is running**
+**Make sure Ollama is running**
 
     ollama serve
-
-**5. Run AXON from anywhere**
-
-    axon
 
 ## Usage
 
